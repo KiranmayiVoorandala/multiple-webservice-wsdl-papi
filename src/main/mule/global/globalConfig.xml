@@ -21,7 +21,7 @@ http://www.mulesoft.org/schema/mule/apikit-soap http://www.mulesoft.org/schema/m
 http://www.mulesoft.org/schema/mule/secure-properties http://www.mulesoft.org/schema/mule/secure-properties/current/mule-secure-properties.xsd">
 	
 	<http:listener-config name="wsdl-httpListenerConfig" doc:name="HTTP Listener config" doc:id="1062f768-1eed-41db-93d0-692ced145f15" >
-		<http:listener-connection host="0.0.0.0" port="${api.http.port2}" />
+		<http:listener-connection host="0.0.0.0" port="${api.http.port1}" />
 	</http:listener-config>
 	<http:listener-config name="api-httpListenerConfig">
         <http:listener-connection host="0.0.0.0" port="${api.http.port1}"/>
